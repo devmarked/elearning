@@ -1,0 +1,192 @@
+.vectorIcon {
+  position: relative;
+  width: 38.6px;
+  height: 31.78px;
+  flex-shrink: 0;
+}
+.ed {
+  letter-spacing: -0.02em;
+}
+.le {
+  color: var(--color-forestgreen);
+}
+.ule {
+  letter-spacing: 0.11em;
+}
+.edule {
+  position: relative;
+  line-height: 40px;
+  display: inline-block;
+  width: 91.8px;
+  flex-shrink: 0;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.caribbeanCt {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.caribbeanCtWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-8xl);
+  color: var(--color-darkslategray-300);
+}
+.haymarketVirginiaVa {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 40.5px;
+}
+.haymarketVirginiaVaWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-seagreen-100);
+}
+.vectorIcon1,
+.vectorIcon2 {
+  position: relative;
+  width: 28px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.vectorIcon2 {
+  height: 28px;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.vectorIcon4,
+.vectorIcon5 {
+  width: 24.64px;
+  height: 19.46px;
+}
+.vectorIcon5 {
+  width: 20.1px;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.logoFooter {
+  justify-content: center;
+  gap: var(--gap-12xl);
+  font-size: var(--font-size-9xl);
+  color: var(--color-darkslategray-200);
+}
+.category,
+.creativeWritingParent,
+.logoFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.creativeWritingParent {
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-500);
+}
+.category {
+  justify-content: center;
+  gap: var(--gap-12xl);
+}
+.quickLinksWrapper,
+.subscribeText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subscribeText {
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-500);
+}
+.emailHere {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 31.5px;
+  font-weight: 500;
+}
+.input {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkseagreen);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-2xs) var(--padding-121xl) var(--padding-2xs)
+    var(--padding-3xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subscribeNow {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 40px;
+  font-weight: 500;
+}
+.subscribeButton {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-seagreen-100);
+  box-shadow: 0 2px 16px rgba(30, 156, 78, 0.49);
+  border: 1px solid var(--color-seagreen-100);
+  flex-direction: row;
+  padding: 0 var(--padding-6xl);
+  text-align: center;
+  color: var(--color-white);
+}
+.innerFooter,
+.subscribeButton,
+.subscribeInput {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subscribeInput {
+  flex-direction: column;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-600);
+}
+.innerFooter {
+  flex-direction: row;
+  gap: var(--gap-66xl);
+}
+.footer {
+  position: relative;
+  background-color: var(--color-honeydew-100);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-31xl) var(--padding-146xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-8xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .innerFooter {
+    flex-wrap: wrap;
+  }
+}
